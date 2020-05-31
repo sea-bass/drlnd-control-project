@@ -10,7 +10,7 @@ By Sebastian Castro, 2020
 
 This project uses the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment from Unity ML-Agents.
 
-This environment consists of 20 identical simulated robot arms which must place their end effector inside spheres that move around them. The spheres, which are normally blue, are colored green when the arms are positioned inside them. The arms have two joints with 2 degrees of freedom each, which can be actuated with torque.
+This environment consists of 20 identical simulated robot arms which must place their end effector inside spheres that move around them. The spheres, which are normally blue, are colored green when the arms are positioned inside them. The arms have two joints with 2 degrees of freedom each, which can be actuated with torques.
 
 ![Environment animation](media/openai_reacher.gif)
 
@@ -33,6 +33,6 @@ To get started with this project, first you should perform the setup steps in th
 1. Install [Conda](https://docs.conda.io/en/latest/) and create a Python 3.6 virtual environment
 2. Install [OpenAI Gym](https://github.com/openai/gym)
 3. Clone the [Udacity repo]((https://github.com/udacity/deep-reinforcement-learning)) and install the Python requirements included
-4. Download the Banana World Unity files appropriate for your operating system and architecture ([Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip), [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip), [Win32](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip), [Win64](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip))
+4. Download the Reacher Unity files appropriate for your operating system and architecture ([Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip), [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip), [Win32](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip), [Win64](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip))
 
 Once you have performed this setup, you should be ready to run the [`reacher_ppo.ipynb`](reacher_ppo.ipynb) Jupyter Notebook in this repo. This notebook contains all the steps needed to define and train a DQN Agent to solve this environment.
