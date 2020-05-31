@@ -62,6 +62,10 @@ In our implementation, the policy learns to get about `37` total reward, average
 
 ![Results](media/ppo_results.png)
 
+The GIF below shows a snippet of our final trained agent running. You can also find the final weights of our policy in the `trained_weights.pth` file.
+
+![Environment animation](media/openai_reacher.gif)
+
 ---
 
 ## Future Work
