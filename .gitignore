@@ -1,0 +1,7 @@
+# Folders to ignore
+/.ipynb_checkpoints/
+/.vscode/
+/Reacher_Linux/
+
+# Files to ignore
+unity-environment.log
